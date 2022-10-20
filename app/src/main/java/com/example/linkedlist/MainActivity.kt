@@ -20,5 +20,6 @@ class MainActivity : AppCompatActivity() {
         ll.print()
         ll.delete()
         ll.print()
+        ll.getAt(5)
     }
 }

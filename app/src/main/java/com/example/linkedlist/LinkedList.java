@@ -50,4 +50,15 @@ public class LinkedList<T> {
 
         }
     }
+
+    void getAt(int i){
+        Node temp=head;
+        while(temp!=null && i!=0){
+            temp=temp.next;
+            i--;
+        }
+        if(i==0 && temp!=null) {
+            Log.d("print_linkedList", String.valueOf(temp.data));
+        }
+    }
 }
