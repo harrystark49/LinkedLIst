@@ -3,6 +3,7 @@ package com.example.linkedlist
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import kotlinx.coroutines.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,12 +15,14 @@ class MainActivity : AppCompatActivity() {
         ll.apply {
             insert("harry")
             insert("stark")
-            insert("chinnu")
-            insert("maam")
+            insert("c")
+            insert("s")
         }
+
         ll.print()
         ll.delete()
         ll.print()
         ll.getAt(5)
+
     }
 }
