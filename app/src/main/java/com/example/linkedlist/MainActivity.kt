@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
             insert("stark")
             insert("c")
             insert("s")
+            insert("a")
+            insert("k")
         }
 
         ll.print()
